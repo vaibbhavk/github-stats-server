@@ -4,7 +4,6 @@ from app.core.config import settings
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-
 app = FastAPI()
 
 app.add_middleware(

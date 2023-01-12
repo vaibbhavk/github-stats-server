@@ -40,6 +40,14 @@ Start the server
 
 Server will be running on `http://localhost:8000/`.
 
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  py -m pytest
+```
+
 ## Tech Stack
 
 **Client:** Angular, Bootstrap
