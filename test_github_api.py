@@ -14,8 +14,8 @@ def test_get_profile():
     "avatar_url": "https://avatars.githubusercontent.com/u/67103161?v=4",
     "html_url": "https://github.com/vaibbhavk",
     "name": "Vaibhav Kesharwani",
-    "location": None,
-    "bio": None,
+    "location": "Satna, Madhya Pradesh, India",
+    "bio": "Computer Science Student, Data Scientist, Android Developer, and Web Developer.",
     "twitter_username": None
 }
 
