@@ -244,7 +244,7 @@ def test_get_repos():
 ]
 
 def test_get_repos_invalid_username():
-    response = client.get("/api/v1/github/user/?username=vaibbhavky")
+    response = client.get("/api/v1/github/repos/?username=vaibbhavky")
     assert response.status_code == 404
     assert response.json() == {
     "detail": "Not Found"
